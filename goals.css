@@ -1,0 +1,83 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+  background: #2e7d32;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 10px;
+  font-size: 28px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  display: inline-block;
+  margin: 5px 10px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main Card */
+.card {
+  max-width: 400px;
+  background: #ffffff;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.card h2 {
+  margin-bottom: 15px;
+  color: #2e7d32;
+}
+
+/* Goals List */
+.goals-list {
+  list-style: none;
+}
+
+.goals-list li {
+  padding: 10px 0;
+  font-size: 18px;
+  border-bottom: 1px solid #ddd;
+}
+
+.goals-list li:last-child {
+  border-bottom: none;
+}
+
+.goals-list input[type="checkbox"] {
+  margin-right: 10px;
+  transform: scale(1.2);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  background: #2e7d32;
+  color: white;
+  font-size: 14px;
+  position:fixed;
+  bottom: 0;
+  height:5vh;
+  width:100%;
+  
+}
